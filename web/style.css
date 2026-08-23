@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+}
+#canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    /* never blur - crisp pixel rendering */
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    /* ensure canvas itself is not filtered when scaled */
+}
+#info {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: #aaa;
+    font-family: monospace;
+    font-size: 12px;
+    background: rgba(0,0,0,0.6);
+    padding: 8px 10px;
+    border-radius: 4px;
+    pointer-events: none;
+    line-height: 1.6;
+}
+#controls {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    gap: 8px;
+}
+#controls button {
+    background: #222;
+    color: #ddd;
+    border: 1px solid #444;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 12px;
+}
+#controls button:hover { background: #333; }

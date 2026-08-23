@@ -1,0 +1,1873 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/alex/emsdk/"
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+    searched_directories:
+      - "/home/alex/emsdk/uname"
+      - "/home/alex/emsdk/upstream/emscripten/uname"
+      - "/home/alex/.vllm/bin/uname"
+      - "/opt/git/llama.cpp/build-vulkan/bin/uname"
+      - "/home/alex/.local/bin/uname"
+      - "/home/alex/.opencode/bin/uname"
+      - "/home/alex/.hipfire/bin/uname"
+      - "/usr/share/Modules/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Linux - 7.1.8-200.fc44.x86_64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/alex/emsdk/"
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/alex/emsdk/gmake"
+      - "/home/alex/emsdk/upstream/emscripten/gmake"
+      - "/home/alex/.vllm/bin/gmake"
+      - "/opt/git/llama.cpp/build-vulkan/bin/gmake"
+      - "/home/alex/.local/bin/gmake"
+      - "/home/alex/.opencode/bin/gmake"
+      - "/home/alex/.hipfire/bin/gmake"
+      - "/usr/share/Modules/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/emsdk/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/alex/emsdk/upstream/emscripten/llvm-strip"
+      - "/home/alex/emsdk/llvm-strip"
+      - "/home/alex/.vllm/bin/llvm-strip"
+      - "/opt/git/llama.cpp/build-vulkan/bin/llvm-strip"
+      - "/home/alex/.local/bin/llvm-strip"
+      - "/home/alex/.opencode/bin/llvm-strip"
+      - "/home/alex/.hipfire/bin/llvm-strip"
+      - "/usr/share/Modules/bin/llvm-strip"
+      - "/usr/local/bin/llvm-strip"
+      - "/usr/bin/llvm-strip"
+      - "/bin/llvm-strip"
+      - "/var/lib/snapd/snap/bin/llvm-strip"
+      - "/bin/llvm-strip"
+      - "/sbin/llvm-strip"
+      - "/home/alex/emsdk/upstream/emscripten/strip"
+      - "/home/alex/emsdk/strip"
+      - "/home/alex/.vllm/bin/strip"
+      - "/opt/git/llama.cpp/build-vulkan/bin/strip"
+      - "/home/alex/.local/bin/strip"
+      - "/home/alex/.opencode/bin/strip"
+      - "/home/alex/.hipfire/bin/strip"
+      - "/usr/share/Modules/bin/strip"
+      - "/usr/local/bin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/emsdk/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/alex/emsdk/upstream/emscripten/ld.lld"
+      - "/home/alex/emsdk/ld.lld"
+      - "/home/alex/.vllm/bin/ld.lld"
+      - "/opt/git/llama.cpp/build-vulkan/bin/ld.lld"
+      - "/home/alex/.local/bin/ld.lld"
+      - "/home/alex/.opencode/bin/ld.lld"
+      - "/home/alex/.hipfire/bin/ld.lld"
+      - "/usr/share/Modules/bin/ld.lld"
+      - "/usr/local/bin/ld.lld"
+      - "/usr/bin/ld.lld"
+      - "/bin/ld.lld"
+      - "/var/lib/snapd/snap/bin/ld.lld"
+      - "/bin/ld.lld"
+      - "/sbin/ld.lld"
+      - "/home/alex/emsdk/upstream/emscripten/ld"
+      - "/home/alex/emsdk/ld"
+      - "/home/alex/.vllm/bin/ld"
+      - "/opt/git/llama.cpp/build-vulkan/bin/ld"
+      - "/home/alex/.local/bin/ld"
+      - "/home/alex/.opencode/bin/ld"
+      - "/home/alex/.hipfire/bin/ld"
+      - "/usr/share/Modules/bin/ld"
+      - "/usr/local/bin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/emsdk/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/alex/emsdk/upstream/emscripten/llvm-objdump"
+      - "/home/alex/emsdk/llvm-objdump"
+      - "/home/alex/.vllm/bin/llvm-objdump"
+      - "/opt/git/llama.cpp/build-vulkan/bin/llvm-objdump"
+      - "/home/alex/.local/bin/llvm-objdump"
+      - "/home/alex/.opencode/bin/llvm-objdump"
+      - "/home/alex/.hipfire/bin/llvm-objdump"
+      - "/usr/share/Modules/bin/llvm-objdump"
+      - "/usr/local/bin/llvm-objdump"
+      - "/usr/bin/llvm-objdump"
+      - "/bin/llvm-objdump"
+      - "/var/lib/snapd/snap/bin/llvm-objdump"
+      - "/bin/llvm-objdump"
+      - "/sbin/llvm-objdump"
+      - "/home/alex/emsdk/upstream/emscripten/objdump"
+      - "/home/alex/emsdk/objdump"
+      - "/home/alex/.vllm/bin/objdump"
+      - "/opt/git/llama.cpp/build-vulkan/bin/objdump"
+      - "/home/alex/.local/bin/objdump"
+      - "/home/alex/.opencode/bin/objdump"
+      - "/home/alex/.hipfire/bin/objdump"
+      - "/usr/share/Modules/bin/objdump"
+      - "/usr/local/bin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/emsdk/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/alex/emsdk/upstream/emscripten/llvm-objcopy"
+      - "/home/alex/emsdk/llvm-objcopy"
+      - "/home/alex/.vllm/bin/llvm-objcopy"
+      - "/opt/git/llama.cpp/build-vulkan/bin/llvm-objcopy"
+      - "/home/alex/.local/bin/llvm-objcopy"
+      - "/home/alex/.opencode/bin/llvm-objcopy"
+      - "/home/alex/.hipfire/bin/llvm-objcopy"
+      - "/usr/share/Modules/bin/llvm-objcopy"
+      - "/usr/local/bin/llvm-objcopy"
+      - "/usr/bin/llvm-objcopy"
+      - "/bin/llvm-objcopy"
+      - "/var/lib/snapd/snap/bin/llvm-objcopy"
+      - "/bin/llvm-objcopy"
+      - "/sbin/llvm-objcopy"
+      - "/home/alex/emsdk/upstream/emscripten/objcopy"
+      - "/home/alex/emsdk/objcopy"
+      - "/home/alex/.vllm/bin/objcopy"
+      - "/opt/git/llama.cpp/build-vulkan/bin/objcopy"
+      - "/home/alex/.local/bin/objcopy"
+      - "/home/alex/.opencode/bin/objcopy"
+      - "/home/alex/.hipfire/bin/objcopy"
+      - "/usr/share/Modules/bin/objcopy"
+      - "/usr/local/bin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/emsdk/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/alex/emsdk/upstream/emscripten/llvm-readelf"
+      - "/home/alex/emsdk/llvm-readelf"
+      - "/home/alex/.vllm/bin/llvm-readelf"
+      - "/opt/git/llama.cpp/build-vulkan/bin/llvm-readelf"
+      - "/home/alex/.local/bin/llvm-readelf"
+      - "/home/alex/.opencode/bin/llvm-readelf"
+      - "/home/alex/.hipfire/bin/llvm-readelf"
+      - "/usr/share/Modules/bin/llvm-readelf"
+      - "/usr/local/bin/llvm-readelf"
+      - "/usr/bin/llvm-readelf"
+      - "/bin/llvm-readelf"
+      - "/var/lib/snapd/snap/bin/llvm-readelf"
+      - "/bin/llvm-readelf"
+      - "/sbin/llvm-readelf"
+      - "/home/alex/emsdk/upstream/emscripten/readelf"
+      - "/home/alex/emsdk/readelf"
+      - "/home/alex/.vllm/bin/readelf"
+      - "/opt/git/llama.cpp/build-vulkan/bin/readelf"
+      - "/home/alex/.local/bin/readelf"
+      - "/home/alex/.opencode/bin/readelf"
+      - "/home/alex/.hipfire/bin/readelf"
+      - "/usr/share/Modules/bin/readelf"
+      - "/usr/local/bin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/emsdk/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/alex/emsdk/upstream/emscripten/llvm-dlltool"
+      - "/home/alex/emsdk/llvm-dlltool"
+      - "/home/alex/.vllm/bin/llvm-dlltool"
+      - "/opt/git/llama.cpp/build-vulkan/bin/llvm-dlltool"
+      - "/home/alex/.local/bin/llvm-dlltool"
+      - "/home/alex/.opencode/bin/llvm-dlltool"
+      - "/home/alex/.hipfire/bin/llvm-dlltool"
+      - "/usr/share/Modules/bin/llvm-dlltool"
+      - "/usr/local/bin/llvm-dlltool"
+      - "/usr/bin/llvm-dlltool"
+      - "/bin/llvm-dlltool"
+      - "/var/lib/snapd/snap/bin/llvm-dlltool"
+      - "/bin/llvm-dlltool"
+      - "/sbin/llvm-dlltool"
+      - "/home/alex/emsdk/upstream/emscripten/dlltool"
+      - "/home/alex/emsdk/dlltool"
+      - "/home/alex/.vllm/bin/dlltool"
+      - "/opt/git/llama.cpp/build-vulkan/bin/dlltool"
+      - "/home/alex/.local/bin/dlltool"
+      - "/home/alex/.opencode/bin/dlltool"
+      - "/home/alex/.hipfire/bin/dlltool"
+      - "/usr/share/Modules/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/var/lib/snapd/snap/bin/dlltool"
+      - "/bin/dlltool"
+      - "/sbin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/emsdk/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/alex/emsdk/upstream/emscripten/llvm-addr2line"
+      - "/home/alex/emsdk/llvm-addr2line"
+      - "/home/alex/.vllm/bin/llvm-addr2line"
+      - "/opt/git/llama.cpp/build-vulkan/bin/llvm-addr2line"
+      - "/home/alex/.local/bin/llvm-addr2line"
+      - "/home/alex/.opencode/bin/llvm-addr2line"
+      - "/home/alex/.hipfire/bin/llvm-addr2line"
+      - "/usr/share/Modules/bin/llvm-addr2line"
+      - "/usr/local/bin/llvm-addr2line"
+      - "/usr/bin/llvm-addr2line"
+      - "/bin/llvm-addr2line"
+      - "/var/lib/snapd/snap/bin/llvm-addr2line"
+      - "/bin/llvm-addr2line"
+      - "/sbin/llvm-addr2line"
+      - "/home/alex/emsdk/upstream/emscripten/addr2line"
+      - "/home/alex/emsdk/addr2line"
+      - "/home/alex/.vllm/bin/addr2line"
+      - "/opt/git/llama.cpp/build-vulkan/bin/addr2line"
+      - "/home/alex/.local/bin/addr2line"
+      - "/home/alex/.opencode/bin/addr2line"
+      - "/home/alex/.hipfire/bin/addr2line"
+      - "/usr/share/Modules/bin/addr2line"
+      - "/usr/local/bin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/emsdk/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/alex/emsdk/upstream/emscripten/tapi"
+      - "/home/alex/emsdk/tapi"
+      - "/home/alex/.vllm/bin/tapi"
+      - "/opt/git/llama.cpp/build-vulkan/bin/tapi"
+      - "/home/alex/.local/bin/tapi"
+      - "/home/alex/.opencode/bin/tapi"
+      - "/home/alex/.hipfire/bin/tapi"
+      - "/usr/share/Modules/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/var/lib/snapd/snap/bin/tapi"
+      - "/bin/tapi"
+      - "/sbin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-24.0"
+      - "clang-scan-deps-24"
+      - "clang-scan-deps24"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/"
+      - "/home/alex/emsdk/"
+      - "/home/alex/.vllm/bin/"
+      - "/opt/git/llama.cpp/build-vulkan/bin/"
+      - "/home/alex/.local/bin/"
+      - "/home/alex/.opencode/bin/"
+      - "/home/alex/.hipfire/bin/"
+      - "/usr/share/Modules/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/alex/emsdk/upstream/emscripten/clang-scan-deps-24.0"
+      - "/home/alex/emsdk/clang-scan-deps-24.0"
+      - "/home/alex/.vllm/bin/clang-scan-deps-24.0"
+      - "/opt/git/llama.cpp/build-vulkan/bin/clang-scan-deps-24.0"
+      - "/home/alex/.local/bin/clang-scan-deps-24.0"
+      - "/home/alex/.opencode/bin/clang-scan-deps-24.0"
+      - "/home/alex/.hipfire/bin/clang-scan-deps-24.0"
+      - "/usr/share/Modules/bin/clang-scan-deps-24.0"
+      - "/usr/local/bin/clang-scan-deps-24.0"
+      - "/usr/bin/clang-scan-deps-24.0"
+      - "/bin/clang-scan-deps-24.0"
+      - "/var/lib/snapd/snap/bin/clang-scan-deps-24.0"
+      - "/bin/clang-scan-deps-24.0"
+      - "/sbin/clang-scan-deps-24.0"
+      - "/home/alex/emsdk/upstream/emscripten/clang-scan-deps-24"
+      - "/home/alex/emsdk/clang-scan-deps-24"
+      - "/home/alex/.vllm/bin/clang-scan-deps-24"
+      - "/opt/git/llama.cpp/build-vulkan/bin/clang-scan-deps-24"
+      - "/home/alex/.local/bin/clang-scan-deps-24"
+      - "/home/alex/.opencode/bin/clang-scan-deps-24"
+      - "/home/alex/.hipfire/bin/clang-scan-deps-24"
+      - "/usr/share/Modules/bin/clang-scan-deps-24"
+      - "/usr/local/bin/clang-scan-deps-24"
+      - "/usr/bin/clang-scan-deps-24"
+      - "/bin/clang-scan-deps-24"
+      - "/var/lib/snapd/snap/bin/clang-scan-deps-24"
+      - "/bin/clang-scan-deps-24"
+      - "/sbin/clang-scan-deps-24"
+      - "/home/alex/emsdk/upstream/emscripten/clang-scan-deps24"
+      - "/home/alex/emsdk/clang-scan-deps24"
+      - "/home/alex/.vllm/bin/clang-scan-deps24"
+      - "/opt/git/llama.cpp/build-vulkan/bin/clang-scan-deps24"
+      - "/home/alex/.local/bin/clang-scan-deps24"
+      - "/home/alex/.opencode/bin/clang-scan-deps24"
+      - "/home/alex/.hipfire/bin/clang-scan-deps24"
+      - "/usr/share/Modules/bin/clang-scan-deps24"
+      - "/usr/local/bin/clang-scan-deps24"
+      - "/usr/bin/clang-scan-deps24"
+      - "/bin/clang-scan-deps24"
+      - "/var/lib/snapd/snap/bin/clang-scan-deps24"
+      - "/bin/clang-scan-deps24"
+      - "/sbin/clang-scan-deps24"
+      - "/home/alex/emsdk/upstream/emscripten/clang-scan-deps"
+      - "/home/alex/emsdk/clang-scan-deps"
+      - "/home/alex/.vllm/bin/clang-scan-deps"
+      - "/opt/git/llama.cpp/build-vulkan/bin/clang-scan-deps"
+      - "/home/alex/.local/bin/clang-scan-deps"
+      - "/home/alex/.opencode/bin/clang-scan-deps"
+      - "/home/alex/.hipfire/bin/clang-scan-deps"
+      - "/usr/share/Modules/bin/clang-scan-deps"
+      - "/usr/local/bin/clang-scan-deps"
+      - "/usr/bin/clang-scan-deps"
+      - "/bin/clang-scan-deps"
+      - "/var/lib/snapd/snap/bin/clang-scan-deps"
+      - "/bin/clang-scan-deps"
+      - "/sbin/clang-scan-deps"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot;/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/home/alex/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/alex/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/alex/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/alex/emsdk"
+        - "/home/alex/emsdk/upstream/emscripten"
+        - "/home/alex/.vllm/bin"
+        - "/opt/git/llama.cpp/build-vulkan/bin"
+        - "/home/alex/.local/bin"
+        - "/home/alex/.opencode/bin"
+        - "/home/alex/.hipfire/bin"
+        - "/usr/share/Modules/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/var/lib/snapd/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/alex/emsdk/upstream/emscripten/cache/sysroot"
+...

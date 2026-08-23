@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/opt/git/hotel-room-project/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

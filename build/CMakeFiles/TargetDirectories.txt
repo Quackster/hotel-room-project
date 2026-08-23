@@ -1,0 +1,3 @@
+/opt/git/hotel-room-project/build/CMakeFiles/room.dir
+/opt/git/hotel-room-project/build/CMakeFiles/edit_cache.dir
+/opt/git/hotel-room-project/build/CMakeFiles/rebuild_cache.dir
