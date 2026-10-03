@@ -4,7 +4,7 @@ Interactive browser renderer that recreates the reference isometric room (olive 
 
 ## Screenshot
 
-![Screenshot](docs/screenshot.png)
+<img width="1345" height="948" alt="Screenshot_20261003_144951" src="https://github.com/user-attachments/assets/d4ab93c8-079a-4dd2-9cbd-5536962b4806" />
 
 ## Architecture
 
